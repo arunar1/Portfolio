@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+.intro {
+    margin-top: 20vh;
+}
+.intro h3{
+    color: yellow;
+    padding-block: 20px;
+    /* font-size: 30px; */
+}
+.intro h1{
+    color: white;
+    padding-block: 20px;
+    
+    
+}
+.intro p{
+    color: white;
+    padding-block: 20px;
+    /* font-size: 20px; */
+    margin-bottom: 10vh;
+
+
+}
+.container{
+    padding-left: 10vw;
+    color: white;
+    /* margin-left: 20vw; */
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    
+
+}
+.workImg{
+    padding-right: 50px;
+}
+.workImg img{
+    width: 200px;
+    height: 130px;
+}
+.item{
+    margin-top: 20px;
+    width: 800px;
+    height: 170px;
+    display: flex;
+    background-color:rgb(18, 18, 51);
+    padding: 20px;
+    border-radius: 7px;
+}
+.viewall{
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 1px solid rgb(184, 49, 49);
+    color: rgb(150, 225, 71);
+    border-radius: 5px;
+    padding-inline:10px ;
+
+
+
+}
+.writing{
+    color: white;
+    width: 800px;
+    
+    
+}
+.writingcontainer{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.writingcard{
+    /* width: 300px; */
+    /* height: 150px; */
+    background-color: rgb(18, 18, 51);
+    /* margin-right: 20px; */
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 20vw;
+}
+/* .writingpoic{
+    /* background-color: blueviolet; */
+    /* width: 180px; */
+    /* height: 80px; */
+} */
+.write{
+    margin-block: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(18, 18, 51); */
+    /* padding: 20px; */
+    border-radius: 7px;
+}
+.workDis{
+    width: 500px;
+}
+.writeitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.writingCon{
+    position: relative;
+    width: 15vw;
+    height: 20vh;
+
+}
+.getin{
+    width: 800px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gethead h3{
+    margin: 0;
+    margin-top: 80px;
+}
+
+.resume{
+    display: flex;
+}
+.sidebar{
+    width: 15vw;
+    border-right: 1px solid white;
+}
+.writing img{
+    margin: 20px ;
+    width: 15vw;
+    height: 20vh;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    margin:  20px;
+}
+.footer div{
+    margin-block: 20px;
+}
+
+.footer a{
+    color: rgb(150, 225, 71);
+    padding-inline: 20px;
+}
+
+.sidebar .imgsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: rgb(18, 18, 51);
+
+}
+.sidebar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} 
+.sidebar ul{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar ul li{
+    width: 10vw;
+    list-style-type: none;
+    margin: 20px;
+    padding: 15px;
+}
+.sidebar ul li,.sidebar ul a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.item li,.item a{
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 15px;
+    color: rgb(150, 225, 71);
+}
+.item p{
+    margin-top: 15px;
+
+}
+.viewall:hover{
+    background-color: rgb(80, 80, 237);
+    cursor: pointer;
+    color: white;
+}
+.sidebar ul a{
+    width: 100px;
+    padding: 10px;
+}
+.sidebar ul a:hover{
+    background-color: rgb(28, 28, 78);
+    cursor: pointer;
+}
+
+.mainselect a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.workviewall{
+    display: none;
+}
