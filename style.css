@@ -389,7 +389,9 @@ div{
 }
 
 @media (max-width: 768px) {
-    .writeitem {
+    .container 
+    {
+        padding-left: 38px;
         /* text-align: center; */
     }
 }
