@@ -208,7 +208,7 @@ div{
     width: 100px;
     list-style-type: none;
     margin: 20px;
-    padding: 15px;
+    padding-block: 15px;
 }
 .sidebar ul li,.sidebar ul a{
     display: flex;
@@ -234,7 +234,7 @@ div{
 }
 .sidebar ul a{
     width: 100px;
-    padding: 10px;
+    padding-block: 10px;
 }
 .sidebar ul a:hover{
     background-color: rgb(28, 28, 78);
