@@ -14,7 +14,8 @@ div{
     padding: 0;
 }
 .intro {
-    margin-top: 200px;
+
+    margin-top: 100px;
 }
 .intro h3{
     color: yellow;
@@ -36,12 +37,14 @@ div{
 
 }
 .container{
-    padding-right: 20px;
-    padding-left: 100px;
+    /* width: 80%; */
+    margin-right: 20px;
+    margin-left: 10vw;
     color: white;
     /* margin-left: 20vw; */
 }
 .work{
+   
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -152,13 +155,15 @@ div{
     display: flex;
 }
 .sidebar{
-    width: 300px;
-    border-right: 1px solid white;
+    padding-left: 20px;
+    width: 20%;
+    /* border-right: 1px solid white; */
 }
 .writing img{
     margin: 20px ;
     width: 150px;
     height: 200px;
+    
 }
 
 .footer{
@@ -181,7 +186,9 @@ div{
 }
 
 .sidebar .imgsection{
-    margin: 20px;
+    /* margin: 20px; */
+    margin-top: 20px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,6 +199,7 @@ div{
 
 }
 .sidebar img{
+    
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -233,6 +241,7 @@ div{
     color: white;
 }
 .sidebar ul a{
+    
     width: 100px;
     padding-block: 10px;
 }
@@ -269,9 +278,19 @@ div{
 }
 
 
+.name-job{
+    margin-top: 20px;
+    text-align: center;
+}
 
 
-
+.divider{
+    width: 3px;
+    height: auto;
+    background-color: rgb(244, 237, 237);
+    display: block;
+    margin-left:20px ;
+}
 
 
 
@@ -310,7 +329,7 @@ div{
 
 @media (max-width: 768px) {
     .intro {
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .resume{
         display: flex;
@@ -322,6 +341,9 @@ div{
     .work {
         flex-direction: column;
         width: auto;
+    }
+    .divider{
+        display: none;
     }
 }
 
@@ -339,6 +361,8 @@ div{
     .item {
         width: 100%;
         margin-top: 10px;
+        flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -448,11 +472,7 @@ div{
     }
 }
 
-@media (max-width: 768px) {
-    .viewswork {
-        display: none;
-    }
-}
+
 
 @media (max-width: 768px) {
     .footer {

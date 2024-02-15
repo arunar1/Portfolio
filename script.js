@@ -7,7 +7,7 @@ workEle.addEventListener('click', () => {
         workEle.innerHTML = 'View Less';
     } else {
         workEle.innerHTML = 'View All';
-        viewswork.style.display = 'none';
+        // viewswork.style.display = 'none';
     }
 });
 
