@@ -1,14 +1,15 @@
-const workEle=document.querySelector('.work1');
-workEle.addEventListener('click',()=>{
-    
-    document.querySelector('.viewswork').classList.toggle("workviewall")
-    // document.querySelector('.work1').style.display="none"
-    workEle.innerHTML="view Less"
-})
+const workEle = document.querySelector('.work1');
+workEle.addEventListener('click', () => {
+    const viewswork = document.querySelector('.viewswork');
+    viewswork.classList.toggle("workviewall");
 
-const writingEle=document.querySelector('.writing1');
-workEle.addEventListener('click',()=>{
-    document.querySelector(".workviewall").style.display = "block";
-    // document.querySelector('.work1').style.display="none"
-    workEle.innerHTML="view Less"
-})
+    if (viewswork.classList.contains('workviewall')) {
+        workEle.innerHTML = 'View Less';
+    } else {
+        workEle.innerHTML = 'View All';
+        viewswork.style.display = 'none';
+    }
+});
+
+
+

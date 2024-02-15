@@ -254,11 +254,12 @@ div{
     align-items: center;
 }
 
-.workviewall{
-    display: block;
-}
+
 .viewswork{
     display: none;
+}
+.workviewall{
+    display: block;
 }
 
 
