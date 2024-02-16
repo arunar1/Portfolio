@@ -133,8 +133,10 @@ div{
 }
 .writingCon{
     position: relative;
-    width: 150px;
+    font-size: 10px;
+    width: 250px;
     height: 200px;
+    text-align: center;
 
 }
 .getin{
@@ -161,21 +163,21 @@ div{
 }
 .writing img{
     margin: 20px ;
-    width: 150px;
+    width: auto;
     height: 200px;
     
 }
 
-.footer{
+
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    /* left: -16%; */
-    top: 30px;
-    /* margin:  20px; */
-}
+
+    margin-top: 30px;
+  }
+
 .footer div{
     margin-block: 20px;
 }
@@ -299,7 +301,16 @@ div{
 
 
 
-
+.writingCon li{
+ text-decoration: none;
+  list-style-type: none;
+  margin-top: 15px;
+}
+.writingCon li a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 15px;
+}
 
 
 
