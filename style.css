@@ -357,7 +357,7 @@ div{
         display: none;
     }
     .sidebar{
-        padding: 0px;
+        padding: 20px;
     }
 }
 
@@ -427,13 +427,7 @@ div{
     }
 }
 
-@media (max-width: 768px) {
-    .container 
-    {
-        padding-left: 38px;
-        /* text-align: center; */
-    }
-}
+
 
 @media (max-width: 768px) {
     .writingCon {
