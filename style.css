@@ -356,6 +356,9 @@ div{
     .divider{
         display: none;
     }
+    .sidebar{
+        padding: 0px;
+    }
 }
 
 @media (max-width: 768px) {
